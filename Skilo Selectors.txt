@@ -1,0 +1,45 @@
+
+//User icon://
+
+Xpath
+$x('//i[@class="fas fa-camera"]')
+i.fas.fa-camera
+
+//Headings//
+
+$$("h2")
+[h2]
+
+
+//Small icon//
+
+Xpath
+$x('//i[@class="fas fa-user-edit ng-star-inserted"]')
+
+
+//Posts//
+
+$$("strong.profile-stat-count")
+[strong.profile-stat-count]
+
+//Followers//
+
+$('#followers')
+<li _ngcontent-oog-c13 class=​"profile-stat-count pointer" id=​"followers">​…​</li>​
+li#followers.profile-stat-count.pointer
+
+
+//Following//
+
+$$("#following")
+[li#following.profile-stat-count.pointer]
+
+//User Name: <p> //
+
+$x('//div//p/strong')
+
+
+
+
+
+
