@@ -1,0 +1,33 @@
+CSS:
+For 'All' Button
+$$('label.btn-all.btn.btn-primary')
+
+For 'Public' Button
+$$('label.btn-public.btn.btn-primary.active')
+
+For 'Private' Button
+$$('label.btn-private.btn.btn-primary')
+
+For '+' Button
+$$('i.far.fa-plus-square.fa-3x')
+
+For "New Post" header
+$$("h3")
+
+
+XPath:
+
+For 'All' Button
+$x("//label[@class='btn-all btn btn-primary']")
+
+For 'Public' Button
+$x("//label[@class='btn-public btn btn-primary active']")
+
+For 'Private' Button
+$x("//label[@class='btn-private btn btn-primary']")
+
+For '+' Button
+$x("//i[@class='far fa-plus-square fa-3x']")
+
+For "New Post" header
+$x("//h3")
